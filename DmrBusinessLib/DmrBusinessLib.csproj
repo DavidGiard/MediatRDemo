@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DmrCommandsAndQueries\DmrCommandsAndQueries.csproj" />
+    <ProjectReference Include="..\DmrDataAccessLib\DmrDataAccessLib.csproj" />
+    <ProjectReference Include="..\DmrModels\DmrModels.csproj" />
+  </ItemGroup>
+
+</Project>
